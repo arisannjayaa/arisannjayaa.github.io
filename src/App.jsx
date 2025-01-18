@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -47,13 +46,13 @@ function App() {
         bg-blend-color-dodge
         before:z-[-1]"
         >
-          <div className="mb-4">
+          <div className="mb-4 lg:container lg:mx-auto">
             <h1 className="lg:text-6xl text-4xl font-bold text-white">
               Looking for collaboration <br /> or have a project idea?
             </h1>
           </div>
           <div>
-            <div className="">
+            <div className="lg:container lg:mx-auto">
               <div className="mb-4">
                 <h3 className="text-lg text-[#9DDDFF]">Contact Me</h3>
               </div>

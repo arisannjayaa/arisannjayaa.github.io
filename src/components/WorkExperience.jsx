@@ -8,7 +8,7 @@ const workExperience = () => {
             relative
             overflow-hidden
             block
-            z-[20]
+            z-50
 						
             before:bg-[url('/src/assets/hero.png')]
             before:bg-cover
@@ -27,7 +27,7 @@ const workExperience = () => {
             before:z-[-1]"
       >
         <div className="container mx-auto">
-          <h1 className="text-5xl font-bold text-white mb-5">Work Experince</h1>
+          <h1 className="lg:text-5xl text-4xl font-bold text-white mb-5">Work Experince</h1>
         </div>
 
         <ol className="container mx-auto relative border-s border-[#2CB1F9] ">
@@ -42,7 +42,7 @@ const workExperience = () => {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
               Responsibilites:
             </h3>
-            <p className="mb-4 lg:text-base text-sm font-normal text-white">
+            <p className="mb-4 lg:text-lg text-sm font-normal text-white">
               - Software requirements analysis and project development strategy.{" "}
               <br />
               - Efficient database design with a focus on security, scalability
@@ -68,7 +68,7 @@ const workExperience = () => {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
               Responsibilites:
             </h3>
-            <p className="mb-4 lg:text-base text-sm font-normal text-white">
+            <p className="mb-4 lg:text-lg text-sm font-normal text-white">
               - Repair and provide solutions to network problems. <br />
               - Ensure optimal availability and performance of the hotel network
               infrastructure, including connected hardware and software. <br />

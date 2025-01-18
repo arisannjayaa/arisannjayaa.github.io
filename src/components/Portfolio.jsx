@@ -1,13 +1,12 @@
 const portfolio = () => {
   return (
     <section id="portfolio">
-      <div
+      <div style={{ zIndex: 21 }}
         className="w-full
         lg:p-24
         relative
         overflow-hidden
         block
-        z-[20]
         p-5
         
         before:bg-[url('/src/assets/hero.png')]
@@ -27,7 +26,7 @@ const portfolio = () => {
         before:z-[-1]"
       >
         <div className="lg:container lg:mx-auto">
-          <h1 className="text-5xl font-bold text-white mb-5 text-left">
+          <h1 className="lg:text-5xl text-4xl font-bold text-white mb-5 text-left">
             Portfolio
           </h1>
         </div>
@@ -57,7 +56,7 @@ const portfolio = () => {
                   </ul>
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-white mb-3">
+                  <h1 className="lg:text-4xl text-3xl font-bold text-white mb-3">
                     E-Commerce Bu Jem Jem
                   </h1>
                   <p className="lg:text-lg text-base text-white">
@@ -99,7 +98,7 @@ const portfolio = () => {
                   </ul>
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-white mb-3">
+                  <h1 className="lg:text-4xl text-3xl font-bold text-white mb-3">
                     Rent Bike
                   </h1>
                   <p className="lg:text-lg text-base text-white">

@@ -1,6 +1,6 @@
 const navbar = () => {
   return (
-    <nav className=" container mx-auto lg:h-screen h-[calc(100vh+100px)] z-50 relative">
+    <nav className=" container mx-auto relative" style={{ zIndex: 23 }}>
       <div className="container-none w-auto lg:px-10 lg:py-5 px-5 py-5 lg:flex lg:justify-between align-center hidden">
         <div className="text-xl font-bold text-white">Ari Sanjaya</div>
         <div className="lg:block hidden">

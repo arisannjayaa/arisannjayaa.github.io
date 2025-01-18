@@ -1,13 +1,12 @@
 const hero = () => {
   return (
-    <div
+    <div style={{ zIndex: 22 }}
       id="home"
       className="w-full
             absolute
             top-0
             overflow-hidden
             block
-            z-[20]
 						
             before:bg-[url('/src/assets/hero.png')]
             before:bg-cover
@@ -30,8 +29,9 @@ const hero = () => {
       <header className="container mx-auto relative w-full z-20 lg:top-[100px] top-[100px]">
         <div className="w-full flex justify-center py-2 mb-10">
           <h1 className="lg:text-6xl text-4xl w-10/12 lg:text-center text-left font-bold text-white">
-            <span className="text-[#248BC3] text-4xl">Ari Sanjaya.</span> <br />
-            Web Developer Building Digital Solutions with Dedication and Innovation
+            <span className="text-[#248BC3] lg:text-4xl text-3xl">Ari Sanjaya.</span> <br />
+            Web Developer Building Digital Solutions with Dedication and
+            Innovation
           </h1>
         </div>
         <div className="bg-gradient-to-r from-[#11435E] to-[#248BC3] w-full h-full p-[3px] rounded-2xl lg:mx-0 mx-5">
@@ -41,7 +41,7 @@ const hero = () => {
                 <div className="hidden lg:block mb-5 lg:mb-0 lg:w-[600px] lg:h-[300px] w-full h-[200px] bg-gradient-to-r from-[#11435E] to-[#248BC3] rounded-2xl">
                   <img
                     className="relative lg:w-full lg:h-[450px] lg:top-[-100px] top-[-100px] h-[300px] object-cover rounded-3xl"
-                    src="/src/assets/Wisuda2.png"
+                    src="/src/assets/Wisuda2.webp"
                     alt=""
                   />
                 </div>
@@ -49,7 +49,7 @@ const hero = () => {
                   <h1 className="text-3xl font-bold text-white mb-5">
                     Biography
                   </h1>
-                  <p className="text-base text-white w-full">
+                  <p className="lg:text-lg text-base text-white w-full">
                     Experienced web developer with Laravel expertise +1 year,
                     has good communication, problem solving and collaboration
                     skills.
@@ -106,7 +106,8 @@ const hero = () => {
                       </svg>
                     </div>
                     <div className="lg:flex lg:justify-center block text-center items-center px-4 py-2 bg-gradient-to-r from-[#11435E] to-[#248BC3] rounded-full text-white w-auto">
-                      <svg className="fill-white"
+                      <svg
+                        className="fill-white"
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
                         height={24}
@@ -117,6 +118,48 @@ const hero = () => {
                         }}
                       >
                         <path d="m21.62 11.108-8.731-8.729a1.292 1.292 0 0 0-1.823 0L9.257 4.19l2.299 2.3a1.532 1.532 0 0 1 1.939 1.95l2.214 2.217a1.53 1.53 0 0 1 1.583 2.531c-.599.6-1.566.6-2.166 0a1.536 1.536 0 0 1-.337-1.662l-2.074-2.063V14.9c.146.071.286.169.407.29a1.537 1.537 0 0 1 0 2.166 1.536 1.536 0 0 1-2.174 0 1.528 1.528 0 0 1 0-2.164c.152-.15.322-.264.504-.339v-5.49a1.529 1.529 0 0 1-.83-2.008l-2.26-2.271-5.987 5.982c-.5.504-.5 1.32 0 1.824l8.731 8.729a1.286 1.286 0 0 0 1.821 0l8.69-8.689a1.284 1.284 0 0 0 .003-1.822" />
+                      </svg>
+                    </div>
+                    <div className="lg:flex lg:justify-center block text-center items-center px-4 py-2 bg-gradient-to-r from-[#11435E] to-[#248BC3] rounded-full text-white w-auto">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="icon icon-tabler icons-tabler-outline icon-tabler-brand-mysql"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M13 21c-1.427 -1.026 -3.59 -3.854 -4 -6c-.486 .77 -1.501 2 -2 2c-1.499 -.888 -.574 -3.973 0 -6c-1.596 -1.433 -2.468 -2.458 -2.5 -4c-3.35 -3.44 -.444 -5.27 2.5 -3h1c8.482 .5 6.421 8.07 9 11.5c2.295 .522 3.665 2.254 5 3.5c-2.086 -.2 -2.784 -.344 -3.5 0c.478 1.64 2.123 2.2 3.5 3" />
+                        <path d="M9 7h.01" />
+                      </svg>
+                    </div>
+                    <div className="lg:flex lg:justify-center block text-center items-center px-4 py-2 bg-gradient-to-r from-[#11435E] to-[#248BC3] rounded-full text-white w-auto">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="icon icon-tabler icons-tabler-outline icon-tabler-brand-laravel"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 17l8 5l7 -4v-8l-4 -2.5l4 -2.5l4 2.5v4l-11 6.5l-4 -2.5v-7.5l-4 -2.5z" />
+                        <path d="M11 18v4" />
+                        <path d="M7 15.5l7 -4" />
+                        <path d="M14 7.5v4" />
+                        <path d="M14 11.5l4 2.5" />
+                        <path d="M11 13v-7.5l-4 -2.5l-4 2.5" />
+                        <path d="M7 8l4 -2.5" />
+                        <path d="M18 10l4 -2.5" />
                       </svg>
                     </div>
                   </div>
