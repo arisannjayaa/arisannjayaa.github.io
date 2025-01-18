@@ -47,7 +47,8 @@ Error generating stack: `+i.message+`
             before:bg-cover\r
             before:bg-no-repeat\r
             before:bg-center\r
-            android:h-[calc(100vh+400px)]\r
+            max-sm:h-[calc(100vh+300px)]\r
+            iphone:h-[100vh]\r
             lg:h-[calc(100vh+0px)]\r
             md:h-[calc(100vh-300px)]\r
             h-[calc(100vh+100px)]\r
@@ -69,7 +70,8 @@ Error generating stack: `+i.message+`
         overflow-hidden\r
         block\r
         px-5\r
-        android:mt-[calc(100vh+350px)]\r
+        max-[600px]:mt-[calc(100vh+300px)]\r
+        iphone:mt-[calc(100vh-100px)]\r
         sm:mt-[calc(100vh-400px)]\r
         md:mt-[calc(100vh-400px)]\r
         lg:mt-[calc(100vh-70px)]\r
